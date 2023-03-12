@@ -2,10 +2,11 @@
   overflow: hidden;
 }
 .navigation{
-  width: 75%;
+  width: 70%;
 }
 .menu-buttons{
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   list-style: none;
   color: white;
   display: flex;
@@ -22,6 +23,22 @@
   margin-left: -20px;
   margin-right: -20px;
   margin-top: -20px;
+}
+.container{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.centered-content{
+  margin-top: 13%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+}
+.logo-image{
+  width: 100px;
+  height: 100px;
+  image-rendering: pixelated;
 }
 #aboutMe{
   display: none;
