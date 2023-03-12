@@ -1,6 +1,7 @@
 window.addEventListener('touchmove', (e)=> e.preventDefault());
 let containerCollection = document.getElementsByClassName("container");
 let navbar = document.getElementById("menu-buttons").querySelectorAll('li');
+console.log(containerCollection)
 highlightCurrentActiveMenu(0);
  
 //listening for mouse events
@@ -15,7 +16,7 @@ for(let i = 0; i<navbar.length; i++){
 }
 function highlightMenuOnMouseOver(index){
   for(let i = 0; i<navbar.length; i++){
-    if(i == chosenIndex){
+    if(i == index){
       navbar[i].style.color = "grey"
     }
     else{
@@ -25,7 +26,7 @@ function highlightMenuOnMouseOver(index){
 }
 function highlightCurrentActiveMenu(index){
   for(let i = 0; i<navbar.length; i++){
-    if(i == chosenIndex){
+    if(i == index){
       navbar[i].style.fontWeight = "600"
     }
     else{
