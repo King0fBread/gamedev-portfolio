@@ -23,22 +23,53 @@
   margin-left: -20px;
   margin-right: -20px;
   margin-top: -20px;
+  z-index: 1000;
 }
 .container{
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
-.centered-content{
-  margin-top: 13%;
+.centered-content-title{
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 40px;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
+}
+.centered-content-description{
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
 }
 .logo-image{
   width: 100px;
   height: 100px;
   image-rendering: pixelated;
+}
+.arrow-icon{
+  margin-top: 3%;
+  width: 50px;
+  height: 50px;
 }
 #aboutMe{
   display: none;

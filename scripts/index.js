@@ -10,19 +10,25 @@ for(let i = 0; i<navbar.length; i++){
     swapContainerContent(i)
     highlightCurrentActiveMenu(i)
   }
-  // navbar[i].onmouseover = () =>{
-  //   highlightMenuOnMouseOver(i)
-  // }
+  navbar[i].onmouseenter = () =>{
+    highlightMenuOnMouseEnter(i)
+  }
+  navbar[i].onmouseleave = () =>{
+    unhighlightMenuOnMouseLeave(i)
+  }
 }
-function highlightMenuOnMouseOver(index){
+function highlightMenuOnMouseEnter(index){
   for(let i = 0; i<navbar.length; i++){
     if(i == index){
-      navbar[i].style.color = "grey"
+      navbar[i].style.color = "darkgrey"
     }
     else{
       navbar[i].style.color = "white"
     }
   }
+}
+function unhighlightMenuOnMouseLeave(index){
+  navbar[index].style.color = "white"
 }
 function highlightCurrentActiveMenu(index){
   for(let i = 0; i<navbar.length; i++){
