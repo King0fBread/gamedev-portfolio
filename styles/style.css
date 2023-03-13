@@ -74,6 +74,9 @@
 .hypertextElement{
   color: #FF6D6D;
 }
+.hypertextElement:hover{
+  cursor:pointer;
+}
 #aboutMe{
   display: none;
 }
