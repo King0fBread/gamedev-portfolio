@@ -1,7 +1,7 @@
-window.addEventListener('touchmove', (e)=> e.preventDefault());
-let containerCollection = document.getElementsByClassName("container");
-let navbar = document.getElementById("menu-buttons").querySelectorAll('li');
-console.log(containerCollection)
+window.addEventListener('touchmove', (e)=> e.preventDefault())
+let containerCollection = document.getElementsByClassName("container")
+let navbar = document.getElementById("menu-buttons").querySelectorAll('li')
+let arrowIcon = document.getElementById("arrow-icon")
 highlightCurrentActiveMenu(0);
  
 //listening for mouse events
@@ -46,10 +46,10 @@ function highlightCurrentActiveMenu(index){
 function swapContainerContent(i){
   for(let index = 0; index<containerCollection.length; index++){
     if(index!=i){
-      containerCollection[index].style.display = "none";
+      containerCollection[index].style.display = "none"
     }
     else{
-      containerCollection[index].style.display = "block";
+      containerCollection[index].style.display = "block"
     }
   }
 }
