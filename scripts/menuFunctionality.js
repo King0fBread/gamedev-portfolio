@@ -12,9 +12,11 @@ for(let i = 0; i<navbar.length; i++){
   }
   navbar[i].onmouseenter = () =>{
     highlightMenuOnMouseEnter(i)
+    navbar[i].style.cursor = "pointer"
   }
   navbar[i].onmouseleave = () =>{
     unhighlightMenuOnMouseLeave(i)
+    navbar[i].style.cursor = "default"
   }
 }
 function highlightMenuOnMouseEnter(index){
