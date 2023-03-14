@@ -19,6 +19,10 @@ for(let i = 0; i<navbar.length; i++){
     navbar[i].style.cursor = "default"
   }
 }
+arrowIcon.onclick = () =>{
+  swapContainerContent(1)
+  highlightCurrentActiveMenu(1)
+}
 function highlightMenuOnMouseEnter(index){
   for(let i = 0; i<navbar.length; i++){
     if(i == index){
