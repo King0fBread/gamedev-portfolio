@@ -112,6 +112,11 @@ body{
   height: 60px;
   border-radius: 40px;
 }
+.contacts-icon:hover{
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+}
 @keyframes arrowAnimation{
   0% {margin-left: 0px;}
   50% {margin-left: 10px;}
