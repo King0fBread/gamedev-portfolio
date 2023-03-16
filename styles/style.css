@@ -116,10 +116,35 @@ body{
   gap: 30px;
 }
 .preview{
+  
+}
+.preview-cover-image{
+  width: 200px;
+  height: 160px;
+}
+#preview-mizkif{
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+}
+#preview-ancient{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#preview-purgatory{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#preview-office{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 .contacts-icon{
   width: 60px;
