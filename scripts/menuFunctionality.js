@@ -48,6 +48,7 @@ function highlightCurrentActiveMenu(index){
 }
 //swapping the contents of the the container div
 function swapContainerContent(i){
+  controlOverflow(i)
   for(let index = 0; index<containerCollection.length; index++){
     if(index!=i){
       containerCollection[index].style.display = "none"
@@ -55,5 +56,13 @@ function swapContainerContent(i){
     else{
       containerCollection[index].style.display = "block"
     }
+  }
+}
+function controlOverflow(pageIndex){
+  if(pageIndex == 2){
+    document.body.style.overflow = "visible"
+  }
+  else{
+    document.body.style.overflow = "hidden"
   }
 }
