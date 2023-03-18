@@ -1,135 +1,17 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;
-0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;
-1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<script defer src="scripts/menuFunctionality.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="navigation">
-      <ul class="menu-buttons" id="menu-buttons">
-        <li>Home</li>
-        <li>About me</li>
-        <li>Projects</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-  </header>
-  <div class="container" id="home">
-    <div class="centered-content-title">
-      Nikita Glubokov’s
-      <br>
-      Game developer portfolio
-      <br>
-      <img class="logo-image" src="images/logo-first.png">
-      <img class="arrow-icon" src="images/iconArrow.png" id="arrow-icon">
-    </div>
-  </div>
-  <div class="container" id="aboutMe">
-    <div class="centered-content-description">
-      Hey, I’m Nikita, a programmer and game developer! I have been actively creating projects for more than a year,
-      <br>
-      while continuously improving and learning new skills to expand my capabilities!
-      <p></p>
-      I consider myself highly passionate about the art of making games, love thinking outside the box 
-      <br>
-      and would definitely enjoy working alongside other dedicated developers.
-      <p></p>
-      Furthermore, I’m quite outgoing and love meeting new people from the industry.
-      <br>
-      I’m also fluent in English and Russian, as well as currently learning Korean.
-      <p>
-        Thanks for reading :D 
-        <br>
-        You can also check out my 
-        <a id="projectsLink" class="hypertextElement">projects</a>
-        on the other page, or 
-        <a id="contactsLink" class="hypertextElement">contact</a>
-        me if you wish!
-      </p>
-    </div>
-  </div>
-  <div class="container" id="projects">
-    <div class="projects-top-text">
-      Here are all my currently released projects (from oldest to newest):
-    </div>
-    <div class="centered-content-description">
-      <div class="projects-grid">
-        <div class="preview" id="preview-mizkif">
-          <img class="preview-cover-image" src="images/gameCoversMizkif.png">
-          <br>
-          Mizkif: Emote Madness
-        </div>
-        <div class="preview" id="preview-ancient">
-          <img class="preview-cover-image" src="images/gameCoversAncientEvil.png">
-          <br>
-          Ancient Evil: The Guessing Game
-        </div>
-        <div class="preview" id="preview-purgatory">
-          <img class="preview-cover-image" src="images/gameCoversPurgatory.png">
-          <br>
-          Tiny Purgatory
-        </div>
-        <div class="preview" id="preview-office">
-          <img class="preview-cover-image" src="images/gameCoversOffice.png">
-          <br>
-          TotallyNormalOffice
-        </div>
-        <div class="preview" id="preview-judgment">
-          <img class="preview-cover-image" src="images/gameCoversJudgment.png">
-          <br>
-          Forgotten Judgment
-        </div>
-        <div class="preview" id="preview-smile">
-          <img class="preview-cover-image" src="images/gameCoversSmile.png">
-          <br>
-          They want me to smile
-        </div>
-        <div class="preview" id="preview-town">
-          <img class="preview-cover-image" src="images/gameCoversNewToTown.png">
-          <br>
-          New to town
-        </div>
-        <div class="preview" id="preview-cold">
-          <img class="preview-cover-image" src="images/gameCoversCold.png">
-          <br>
-          I'm not cold
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container" id="contacts">
-    <div class="centered-content-description">
-      My contacts:
-      <p>
-        <img class="contacts-icon" src="images/iconMail.png" onclick="openMail()">
-      </p>
-      <p>
-        <img class="contacts-icon" src="images/iconLinkedIn.png" onclick="openLinkedIn()">
-      </p>
-      <p>
-        <img class="contacts-icon" src="images/iconGitHub.png" onclick="openGitHub()">
-      </p>
-      <p>
-        <img class="contacts-icon" src="images/iconItch.png" onclick="openItchIo()">
-      </p>
-    </div>
-    <script src="scripts/hypertextLogic.js"></script>
-    <script src="scripts/contactsIconsFunctionality.js"></script>
-  </div>
-  <footer class="footer">
-    <div class="footer-text">
-      © 2023 Nikita Glubokov
-    </div>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HIHIH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

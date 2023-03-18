@@ -1,0 +1,44 @@
+import React from 'react';
+import {Link, useNavigate} from "react-router-dom";
+
+const About = () => {
+
+    let navigate = useNavigate();
+
+    const navigateTo = () => {
+        navigate('/projects')
+        console.log('a');
+    }
+
+
+    return (
+        <div className="container" id="aboutMe">
+            <div className="centered-content-description">
+                    Hey, I’m Nikita, a programmer and game developer! I have been actively creating projects for more than a
+                    year,
+                    <br/>
+                    while continuously improving and learning new skills to expand my capabilities!
+                    <p></p>
+                    I consider myself highly passionate about the art of making games, love thinking outside the box
+                    <br/>
+                    and would definitely enjoy working alongside other dedicated developers.
+                    <p></p>
+                    Furthermore, I’m quite outgoing and love meeting new people from the industry.
+                    <br/>
+                    I’m also fluent in English and Russian, as well as currently learning Korean.
+                    <p>
+                        Thanks for reading :D
+                        <br/>
+                        You can also check out my
+                        <span onClick={navigateTo} className="hypertextElement"> projects </span>
+                        on the other page, or
+                        <span onClick={() => {navigate('/contacts')}
+                        } className="hypertextElement"> contact </span>
+                        me if you wish!
+                    </p>
+            </div>
+        </div>
+    );
+};
+
+export default About;
