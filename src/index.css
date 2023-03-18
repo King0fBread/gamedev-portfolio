@@ -203,3 +203,9 @@ body{
   50% {margin-left: 10px;}
   100% {margin-left: 0px;}
 }
+.active{
+  font-weight: bolder;
+}
+.every__link:hover{
+  color: gray;
+}

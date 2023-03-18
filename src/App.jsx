@@ -8,10 +8,14 @@ import Routing from "./routing/Routing.jsx";
 function App() {
   const [count, setCount] = useState(0)
 
+    const [active, setActive] = useState(false);
+
+
+
   return (
           <div className="fullsize">
               <BrowserRouter>
-                  <Navbar/>
+                  <Navbar active={active} setActive={setActive}/>
                   <Routing/>
                   <Footer/>
               </BrowserRouter>
