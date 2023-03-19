@@ -7,7 +7,7 @@ const GamePage = () => {
   const [highlights, setHighlights] = useState([])
   useEffect( () => {
     setCurrentProj(projects[id])
-    setHighlights(currentProj.highlights)
+    setHighlights(projects[id].highlights.split('\n'))
   }, [])
   return(<div>
     <h1 className='project-page-title'>{currentProj.name}</h1>
