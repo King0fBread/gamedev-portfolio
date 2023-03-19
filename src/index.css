@@ -209,3 +209,9 @@ body{
 .every__link:hover{
   color: gray;
 }
+.project-page-title{
+  font-family: Montserrat;
+}
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}

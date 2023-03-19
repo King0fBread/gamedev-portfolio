@@ -14,8 +14,9 @@ const About = () => {
     return (
         <div className="container" id="aboutMe">
             <div className="centered-content-description">
-                    Hey, I’m Nikita, a programmer and game developer! I have been actively creating projects for more than a
-                    year,
+                    Hey, I’m Nikita, a self-taught programmer and game developer!
+                    <br></br>
+                    I have been actively creating projects for more than a year,
                     <br/>
                     while continuously improving and learning new skills to expand my capabilities!
                     <p></p>

@@ -5,8 +5,12 @@ const GamePage = () => {
   const {id} = useParams();
   const currentProj = projects[id]
   return(<div>
-    <video></video>
+    <h1 className='project-page-title'>{currentProj.name}</h1>
+    <video src={currentProj.video} width="500" height="300" controls></video>
   </div>)
 
+}
+function addLineBreaks(text){
+  return text.replace("\n", "<br />")
 }
 export default GamePage;
