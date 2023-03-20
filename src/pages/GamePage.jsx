@@ -10,10 +10,11 @@ const GamePage = () => {
     setHighlights(projects[id].highlights.split('\n'))
   }, [])
   return(<div>
-    <h1 className='project-page-title'>{currentProj.name}</h1>
+    <h2 className='project-page-text'>{currentProj.name}</h2>
+    <p className='project-page-text'>{currentProj.description}</p>
     <video src={currentProj.video} width="500" height="300" controls></video>
     {highlights.map((el, index) => {return(
-      <p key={index}>{el}</p>
+      <p className='project-page-text' key={index}>{el}</p>
     )})}
   </div>)
 }

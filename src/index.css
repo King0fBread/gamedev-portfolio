@@ -159,7 +159,7 @@ body{
   margin-top: 25px;
 }
 .projects-grid::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 
 .projects-grid::-webkit-scrollbar-track {
@@ -209,7 +209,7 @@ body{
 .every__link:hover{
   color: gray;
 }
-.project-page-title{
+.project-page-text{
   font-family: Montserrat;
 }
 video::-webkit-media-controls-fullscreen-button {
