@@ -12,7 +12,11 @@ const GamePage = () => {
   return(<div>
     <h2 className='project-page-text'>{currentProj.name}</h2>
     <p className='project-page-text'>{currentProj.description}</p>
-    <video src={currentProj.video} width="500" height="300" controls></video>
+    <p></p>
+    <video className='game-preview-video' src={currentProj.video} width="500" height="300" controls></video>
+    <p></p>
+    <img className='game-screenshot' src={currentProj.screenShot1}></img>
+    <img className='game-screenshot' src={currentProj.screenShot2}></img>
     {highlights.map((el, index) => {return(
       <p className='project-page-text' key={index}>{el}</p>
     )})}
