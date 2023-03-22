@@ -3,7 +3,7 @@ export default [
         id: 0,
         name: 'Mizkif: Emote Madness',
         imagePath: '/gameCoversMizkif.png',
-        description: "This 2D sidescroller was my first officially released project, where I was learning everything on-the-go, which was certainly exciting and challenging",
+        description: "This 2D sidescroller was my first officially released project, where I was learning as much as I could on-the-go, which was certainly exciting and challenging",
         highlights: "Here are some of the interesting highlights of my development process: \n-Utilized Tilemaps for creating several levels with various types of enemies \n-Created a simple dialogue system \n-Implemented a state machine for the Main Boss \n-Added sound control, respawning and scene management",
         video: '/video-previews/mizkifPreview.mp4',
         screenShot1: '/screenshotMizkif1.png',

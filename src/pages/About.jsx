@@ -18,11 +18,13 @@ const About = () => {
                     <br></br>
                     I have been actively creating projects for more than a year,
                     <br/>
-                    while continuously improving and learning new skills to expand my capabilities!
+                    while continuously improving and learning new skills to expand my capabilities.
                     <p></p>
-                    I consider myself highly passionate about the art of making games, love thinking outside the box
+                    I consider myself highly passionate about the art of making games,
                     <br/>
-                    and would definitely enjoy working alongside other dedicated developers.
+                    love thinking outside the box and try my best to write clean maintainable code.
+                    <br/>
+                    So I would certainly enjoy working alongside other dedicated developers.
                     <p></p>
                     Furthermore, I’m quite outgoing and love meeting new people from the industry.
                     <br/>
