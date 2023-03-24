@@ -78,7 +78,7 @@ export default [
         name:'I\'m not cold',
         imagePath: '/gameCoversCold.png',
         description: 'This is a survival game, where the player has to creatively utilize various surrounding resources\nfor as long as possible, in order to escape at a specific time',
-        highlights: '-Added several survival states, that can decrease and increase at different rates, depending on the taken action \n-Through events, linked the survival values to the dying manager, that displays a “close-to-death” post-processing effect when required \n-Implemented a timer, that displays the current “time of day” on the physical clock object in the world. \n-Assigned a specific time period on the clock, when the “finishing” action has to be performed in order to win \n-Added a settings menu that gets saved in-between game sessions',
+        highlights: '-Added several survival states, that can decrease and increase at different rates, depending on the taken action \n-Through events, linked the survival values to the dying manager, that can smoothly transition back and forth\nto a “close-to-death” post-processing effect when required \n-Added the ability to carry and discard some of the  important items\n-Implemented a timer, that displays the current “time of day” on the physical clock object in the world. \n-Assigned a specific time period on the clock, when the “finishing” action has to be performed in order to win \n-Added a settings menu that gets saved in-between game sessions',
         video: '/video-previews/coldPreview.mp4',
         screenShot1: '/screenshotCold1.png',
         screenShot2: '/screenshotCold2.png'

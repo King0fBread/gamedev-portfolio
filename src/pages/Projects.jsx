@@ -8,11 +8,12 @@ const Projects = () => {
     return (
         <div className="container" id="projects">
             <p className="projects-top-text">
-                Here are all my currently released projects (from first to latest):</p>
+                Here are all my currently released projects (from first to latest):
+            </p>
             <div className="centered-content-description">
                 <div className="projects-grid">
                     {projects.map((el) => {
-                        return (<div onClick={() => {navigate(`/gamePage/${el.id}`)}} key={el.id} className="preview" id="preview-mizkif">
+                        return (<div onClick={() => {navigate(`/gamePage/${el.id}`)}} key={el.id} className="preview">
                             <img className="preview-cover-image" src={`${el.imagePath}`}/>
                             <br/>
                             {el.name}
