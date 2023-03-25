@@ -25,6 +25,7 @@ const GamePage = () => {
     {highlights.map((el, index) => {return(
       <p className='project-page-text' key={index}>{el}</p>
     )})}
+    <p className='project-page-download-link' onClick={() => {window.open(currentProj.playLink)}}>{currentProj.playText}</p>
   </div>)
 }
 export default GamePage;

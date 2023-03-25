@@ -7,7 +7,9 @@ export default [
         highlights: '-Utilized Tilemaps for creating several levels with various types of enemies \n-Created a simple dialogue system \n-Implemented a state machine for the Main Boss \n-Added sound control, respawning and scene management',
         video: '/video-previews/mizkifPreview.mp4',
         screenShot1: '/screenshotMizkif1.png',
-        screenShot2: '/screenshotMizkif2.png'
+        screenShot2: '/screenshotMizkif2.png',
+        playText: 'Download for Windows',
+        playLink: 'https://kingofbread.itch.io/mizkif-emote-madness',
         
     },
     {
@@ -18,7 +20,9 @@ export default [
         highlights: '-Implemented a “Wordle-like“ mechanic, where the player has to guess a random word in several attempts \n-Added a death timer for the guessing process, that activates “anomalies” in the world, which player has to deal with to survive \n-Utilized “Unity Remote” testing environment on my phone, to personally playtest each development stage \n-Released the game for Android devices',
         video: '/video-previews/ancientPreview.mp4',
         screenShot1: '/screenshotAncient1.png',
-        screenShot2: '/screenshotAncient2.png'
+        screenShot2: '/screenshotAncient2.png',
+        playText: 'Download for Android',
+        playLink: 'https://kingofbread.itch.io/ancient-evil',
     },
     {
         id: 2,
@@ -28,7 +32,9 @@ export default [
         highlights: '-Added optional voice controls to the game through the UnityEngine.Windows.Speech namespace \n-Worked with Unity’s Shader Graph to add various interesting materials to the environment \n-Utilized baked lighting',
         video: '/video-previews/purgatoryPreview.mp4',
         screenShot1: '/screenshotPurgatory1.png',
-        screenShot2: '/screenshotPurgatory2.png'
+        screenShot2: '/screenshotPurgatory2.png',
+        playText: 'Download for Windows',
+        playLink: 'https://kingofbread.itch.io/tiny-pugratory',
     },
     {
         id: 3,
@@ -39,7 +45,9 @@ export default [
         highlights: '-Implemented an item inspection system for finding clues \n-Created a working “computer interface”, that helps the player solve puzzles \n-Released the game for Windows, Linux and MacOS devices',
         video: '/video-previews/officePreview.mp4',
         screenShot1: '/screenshotOffice1.png',
-        screenShot2: '/screenshotOffice2.png'
+        screenShot2: '/screenshotOffice2.png',
+        playText: 'Download for Windows, Linux and Mac',
+        playLink: 'https://kingofbread.itch.io/totallynormaloffice',
     },
     {
         id: 4,
@@ -50,7 +58,9 @@ export default [
         highlights: '-Utilized inheritance to create various types of NPCs with different mechanics \n-Implemented abilities for the player character, that can directly change affected NPC’s behavior \n-Released the game to be played in Browser',
         video: '/video-previews/judgmentPreview.mp4',
         screenShot1: '/screenshotJudgment1.png',
-        screenShot2: '/screenshotJudgment2.png'
+        screenShot2: '/screenshotJudgment2.png',
+        playText: 'Play in browser',
+        playLink: 'https://kingofbread.itch.io/forgotten-judgment',
     },
     {
         id: 5,
@@ -61,7 +71,9 @@ export default [
         highlights: '-Added the ability for the player’s camera to move seamlessly between “rooms”, depending on the current location and the taken action \n-Added various items, that can be obtained through puzzles and used in order to progress \n- Implemented an inventory system, that can store, display and discard these items',
         video: '/video-previews/smilePreview.mp4',
         screenShot1: '/screenshotSmile1.png',
-        screenShot2: '/screenshotSmile2.png'
+        screenShot2: '/screenshotSmile2.png',
+        playText: 'Download for Android',
+        playLink: 'https://kingofbread.itch.io/they-want-me-to-smile',
     },
     {
         id: 6,
@@ -71,7 +83,9 @@ export default [
         highlights: '-Implemented an ability to have conversations with the character’s friend through his phone. \nThose conversations change during playing and determine which parts of the environment the player can interact with in order to progress \n-Added dynamic camera shake effect, that changes depending on the current movement speed \n-Utilized Unity’s Timeline to create an ending cutscene \n-Added a settings menu for brightness, volume and mouse sensitivity, where the values get saved in-between sessions \n-Implemented asynchronous loading of scenes',
         video: '/video-previews/townPreview.mp4',
         screenShot1: '/screenshotTown1.png',
-        screenShot2: '/screenshotTown2.png'
+        screenShot2: '/screenshotTown2.png',
+        playText: 'Download for Windows',
+        playLink: 'https://kingofbread.itch.io/new-to-town',
     },
     {
         id: 7,
@@ -81,7 +95,8 @@ export default [
         highlights: '-Added several survival states, that can decrease and increase at different rates, depending on the taken action \n-Through events, linked the survival values to the dying manager, that can smoothly transition back and forth\nto a “close-to-death” post-processing effect when required \n-Added the ability to carry and discard some of the  important items\n-Implemented a timer, that displays the current “time of day” on the physical clock object in the world. \n-Assigned a specific time period on the clock, when the “finishing” action has to be performed in order to win \n-Added a settings menu that gets saved in-between game sessions',
         video: '/video-previews/coldPreview.mp4',
         screenShot1: '/screenshotCold1.png',
-        screenShot2: '/screenshotCold2.png'
-
+        screenShot2: '/screenshotCold2.png',
+        playText: 'Download for Windows',
+        playLink: 'https://kingofbread.itch.io/im-not-cold',
     }
 ]

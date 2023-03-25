@@ -250,3 +250,13 @@ body{
 video::-webkit-media-controls-fullscreen-button {
   display: none;
 }
+.project-page-download-link{
+  margin-top: 40px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  color: #FF6D6D;
+}
+.project-page-download-link:hover{
+  cursor: pointer;
+}
