@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router';
+import { useNavigate, useParams } from 'react-router';
 import projects from '../data/projects';
 const GamePage = () => {
   const {id} = useParams();
   const [currentProj, setCurrentProj] = useState({})
   const [highlights, setHighlights] = useState([])
   const [description, setDescription] = useState([])
+  const navigate = useNavigate()
   useEffect( () => {
     setCurrentProj(projects[id])
     setHighlights(projects[id].highlights.split('\n'))
     setDescription(projects[id].description.split('\n'))
   }, [])
   return(<div className='project-contents'>
+    <div className='project-page-back-button' onClick={() => navigate(-1)}>
+      <p>&lt;-Back to list</p>
+    </div>
     <h2 className='project-page-title'>{currentProj.name}</h2>
     {description.map((el, index) => {return(
       <p className='project-page-text' key={index}>{el}</p>

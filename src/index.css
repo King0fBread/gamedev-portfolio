@@ -190,7 +190,8 @@ body{
 .game-screenshot{
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 20px;
+  border-radius: 15px;
+  border: 2px solid;
 }
 .projects-top-text{
   text-align: center;
@@ -256,6 +257,23 @@ video::-webkit-media-controls-fullscreen-button {
   font-size: 25px;
   font-weight: 800;
   color: #FF6D6D;
+}
+.project-page-back-button{
+  font-family: Montserrat;
+  font-size: 20px;
+  background-color:#373737;
+  color: white;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.project-page-back-button:hover{
+  cursor: pointer;
 }
 .project-page-download-link:hover{
   cursor: pointer;
