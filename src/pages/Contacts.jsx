@@ -6,7 +6,7 @@ const Contacts = () => {
             <div className="centered-content-description">
                 My contacts:
                 <p>
-                    <img onClick={() => window.open("mailto:breadletters@gmail.com")} className="contacts-icon" src="/iconMail.png"
+                    <img onClick={() => window.open("mailto:nikitaglubokov7@gmail.com")} className="contacts-icon" src="/iconMail.png"
                          />
                 </p>
                 <p>

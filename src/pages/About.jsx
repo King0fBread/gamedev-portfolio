@@ -13,7 +13,7 @@ const About = () => {
 
     return (
         <div className="container" id="aboutMe">
-            <div className="centered-content-description">
+            <div className="centered-content-description-aboutme">
                     Hey, I’m Nikita, a self-taught programmer and game developer!
                     <br></br>
                     I have been actively creating projects for more than a year,
@@ -39,6 +39,8 @@ const About = () => {
                         } className="hypertextElement"> contact </span>
                         me if you wish!
                     </p>
+                    <img className='aboutme-collage' src='/AboutMeCollageUNFINISHED.png'></img>
+                    <p></p>
             </div>
         </div>
     );

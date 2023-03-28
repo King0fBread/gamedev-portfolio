@@ -7,10 +7,10 @@ const Projects = () => {
     const navigate = useNavigate(); 
     return (
         <div className="container" id="projects">
-            <p className="projects-top-text">
-                Here are all my currently released projects (from first to latest):
-            </p>
             <div className="centered-content-description">
+                <p className="projects-top-text">
+                Here are all my currently released projects (from first to latest):
+                </p>
                 <div className="projects-grid">
                     {projects.map((el) => {
                         return (<div onClick={() => {navigate(`/gamePage/${el.id}`)}} key={el.id} className="preview">

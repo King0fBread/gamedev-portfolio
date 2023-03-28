@@ -30,6 +30,7 @@ const GamePage = () => {
       <p className='project-page-text' key={index}>{el}</p>
     )})}
     <p className='project-page-download-link' onClick={() => {window.open(currentProj.playLink)}}>{currentProj.playText}</p>
+    <div className='additional-space-for-scrolling'></div>
   </div>)
 }
 export default GamePage;
