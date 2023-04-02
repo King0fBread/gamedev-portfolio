@@ -39,7 +39,7 @@ const About = () => {
                         } className="hypertextElement"> contact </span>
                         me if you wish!
                     </p>
-                    <img className='aboutme-collage' src='/AboutMeCollageUNFINISHED.png'></img>
+                    <img className='aboutme-collage' src='/AboutMeCollage.png'></img>
                     <p></p>
             </div>
         </div>

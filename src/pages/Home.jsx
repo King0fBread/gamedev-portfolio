@@ -10,7 +10,6 @@ const Home = () => {
     return (
         <div className="container" id="home">
             <div className="centered-content-title">
-                <p className='disclaimer'>website not finished yet..</p>
                 Nikita Glubokov’s
                 <br/>
                     Game developer portfolio
