@@ -98,5 +98,18 @@ export default [
         screenShot2: '/screenshotCold2.png',
         playText: 'Download for Windows',
         playLink: 'https://kingofbread.itch.io/im-not-cold',
+    },
+    {
+        id: 8,
+        name:'WarlocksPVP',
+        imagePath: '/gameCoversWarlocks.png',
+        description: 'This is a muliplayer 1v1 card game, where players try to eliminate their opponents by building custom decks of monsters',
+        highlights: '-Implemented client-authoritative multiplayer and synchronized various gameplay mechanics, using Unity’s Netcode solution\n-Added the ability to create and join custom lobbies through Unity Gaming Services\n-Implemented Unity’s Relay server to seamlessly connect players',
+        video: '/video-previews/warlocksPreview.mp4',
+        screenShot1: '/screenshotWarlocks1.png',
+        screenShot2: '/screenshotWarlocks2.png',
+        playText: 'Download for Windows',
+        playLink: 'https://kingofbread.itch.io/warlockspvp',
     }
+
 ]
