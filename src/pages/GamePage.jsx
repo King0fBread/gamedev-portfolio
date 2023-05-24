@@ -25,7 +25,7 @@ const GamePage = () => {
     <p></p>
     <img className='game-screenshot' src={currentProj.screenShot1}></img>
     <img className='game-screenshot' src={currentProj.screenShot2}></img>
-    <h2 className='project-page-highlights-title'>Here are some of the interesting highlights of my development process:</h2>
+    <h2 className='project-page-highlights-title'>Some of the interesting highlights of my development process:</h2>
     {highlights.map((el, index) => {return(
       <p className='project-page-text' key={index}>{el}</p>
     )})}

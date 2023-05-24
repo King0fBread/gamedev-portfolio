@@ -16,7 +16,7 @@ const About = () => {
             <div className="centered-content-description-aboutme">
                     Hey, I’m Nikita, a self-taught programmer and game developer!
                     <br></br>
-                    I have been actively creating projects for more than a year,
+                    I have been actively creating projects for around two years,
                     <br/>
                     while continuously improving and learning new skills to expand my capabilities.
                     <p></p>
