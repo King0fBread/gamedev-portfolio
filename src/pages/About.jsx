@@ -16,7 +16,7 @@ const About = () => {
             <div className="centered-content-description-aboutme">
                     Hey, I’m Nikita, a self-taught programmer and game developer!
                     <br></br>
-                    I have been actively creating projects for around two years,
+                    I have been actively creating and releasing various projects for two years,
                     <br/>
                     while continuously improving and learning new skills to expand my capabilities.
                     <p></p>
@@ -28,8 +28,10 @@ const About = () => {
                     <p></p>
                     Furthermore, I’m quite outgoing and love meeting new people from the industry.
                     <br/>
-                    I’m also fluent in English and Russian, as well as currently learning Korean.
+                    I’m also fluent in English and Russian, as well as currently learning German and Korean.
                     <p>
+                        ───────────────────
+                        <br/>
                         Thanks for reading :D
                         <br/>
                         You can also check out my

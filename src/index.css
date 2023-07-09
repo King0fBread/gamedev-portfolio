@@ -102,7 +102,6 @@ body{
 .container{
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-
 }
 .centered-content-title{
   align-items: center;
@@ -159,20 +158,22 @@ body{
   margin-top: 3%;
   width: 50px;
   height: 50px;
-}
-.arrow-icon:hover{
-  color: #FF6D6D;
   animation-name: arrowAnimation;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   cursor: pointer;
   animation-timing-function: linear;
 }
+.arrow-icon:hover{
+  width: 70px;
+  height: 70px;
+}
 .hypertextElement{
   color: #FF6D6D;
   font-weight: 700;
 }
 .hypertextElement:hover{
+  font-size: 22px;
   cursor:pointer;
   color: #ff1d1d;
 }
