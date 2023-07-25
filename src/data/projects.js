@@ -110,6 +110,18 @@ export default [
         screenShot2: '/screenshotWarlocks2.png',
         playText: 'Download for Windows',
         playLink: 'https://kingofbread.itch.io/warlockspvp',
-    }
+    },
+    {
+        id: 9,
+        name:'Wedding Paradox',
+        imagePath:'gameCoversWedding.png',
+        description:'This horror game is my first released Unreal Engine project.\nHere a player has to interact with NPCs and objects around the world, in order to find a way out',
+        highlights:'-Utilized Blueprints and C++ and explored the ways they interact with each other\n-Using OOP concepts, created an expandable and flexible game logic\nUtilized various tools, provided by Unreal Engine 5, to enhance the visual look of the game\nPackaged and shipped the game for Windows devices',
+        video: '/video-previews/warlocksPreview.mp4',
+        screenShot1:'screenshotWedding1.png',
+        screenShot2:'screenshotWedding2.png',
+        playText:'Download for Windows',
+        playLink:'https://kingofbread.itch.io/wedding-paradox',
+    },
 
 ]
