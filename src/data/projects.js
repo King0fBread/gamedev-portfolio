@@ -114,7 +114,7 @@ export default [
     {
         id: 9,
         name:'Wedding Paradox',
-        imagePath:'gameCoversWedding.png',
+        imagePath:'/gameCoversWedding.png',
         description:'This horror game is my first released Unreal Engine project.\nHere a player has to interact with NPCs and objects around the world, in order to find a way out',
         highlights:'-Utilized Blueprints and C++ and explored the ways they interact with each other\n-Using OOP concepts, created an expandable and flexible game logic\n-Utilized various tools, provided by Unreal Engine 5, to enhance the visual look of the game\n-Packaged and shipped the game for Windows devices',
         video: '/video-previews/weddingPreview.mp4',
