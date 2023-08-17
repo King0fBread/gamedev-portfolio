@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="container" id="projects">
             <div className="centered-content-description">
                 <p className="projects-top-text">
-                Here are all my currently released projects (from first to latest):
+                These are my currently released projects (from first to latest):
                 </p>
                 <div className="projects-grid">
                     {projects.map((el) => {

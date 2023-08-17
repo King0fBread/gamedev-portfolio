@@ -28,7 +28,7 @@ const About = () => {
                     <p></p>
                     Furthermore, I’m quite outgoing and love meeting new people from the industry.
                     <br/>
-                    I’m also fluent in English and Russian, as well as currently learning German and Korean.
+                    I’m also fluent in English and Russian, as well as currently learning Chinese.
                     <p>
                         ───────────────────
                         <br/>

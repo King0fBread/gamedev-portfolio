@@ -12,7 +12,7 @@ const Home = () => {
             <div className="centered-content-title">
                 Nikita Glubokov’s
                 <br/>
-                    Game developer portfolio
+                    Game Developer Portfolio
                     <br/>
                 <img className="logo-image" src={logoFirst}></img>
                 <img onClick={() => navigate('/about')} className="arrow-icon" src={iconArrow}></img>
